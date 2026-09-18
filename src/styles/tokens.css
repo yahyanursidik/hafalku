@@ -21,7 +21,7 @@
   --font-display: "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
   --font-body: ui-sans-serif, system-ui, sans-serif;
   --font-home: ui-rounded, "Arial Rounded MT Bold", var(--font-body);
-  --font-arabic: "Noto Naskh Arabic", "Amiri", serif;
+  --font-arabic: "Amiri Quran", "Noto Naskh Arabic", "Amiri", serif;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
