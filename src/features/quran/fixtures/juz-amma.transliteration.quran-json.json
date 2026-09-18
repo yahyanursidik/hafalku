@@ -1,0 +1,2454 @@
+{
+  "fixtureVersion": "quran-json-3.1.2-juz-amma",
+  "source": {
+    "name": "quran-json",
+    "url": "https://github.com/abdulsamadola/quran-json",
+    "package": "quran-json@3.1.2",
+    "attribution": "English transliteration sourced by quran-json from Tanzil.net. quran-json is CC BY-SA 4.0.",
+    "usageNote": "Imported once as a local learning-aid fixture. It is not canonical Arabic text and the application never requests this source at runtime."
+  },
+  "contentSha256": "2e0915b966defbacd31ca500593f0b4a7e8e81112a8d212544e412c8aa5b86c8",
+  "surahs": [
+    {
+      "number": 78,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "AAamma yatasaaloona"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "AAani alnnabai alAAatheemi"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Allathee hum feehi mukhtalifoona"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Kalla sayaAAlamoona"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Thumma kalla sayaAAlamoona"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Alam najAAali alarda mihadan"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Waaljibala awtadan"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wakhalaqnakum azwajan"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "WajaAAalna nawmakum subatan"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "WajaAAalna allayla libasan"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "WajaAAalna alnnahara maAAashan"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Wabanayna fawqakum sabAAan shidadan"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "WajaAAalna sirajan wahhajan"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Waanzalna mina almuAAsirati maan thajjajan"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Linukhrija bihi habban wanabatan"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Wajannatin alfafan"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Inna yawma alfasli kana meeqatan"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Yawma yunfakhu fee alssoori fatatoona afwajan"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Wafutihati alssamao fakanat abwaban"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Wasuyyirati aljibalu fakanat saraban"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Inna jahannama kanat mirsadan"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Lilttagheena maaban"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Labitheena feeha ahqaban"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "La yathooqoona feeha bardan wala sharaban"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Illa hameeman waghassaqan"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Jazaan wifaqan"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "Innahum kanoo la yarjoona hisaban"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "Wakaththaboo biayatina kiththaban"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Wakulla shayin ahsaynahu kitaban"
+        },
+        {
+          "ayahNumber": 30,
+          "transliteration": "Fathooqoo falan nazeedakum illa AAathaban"
+        },
+        {
+          "ayahNumber": 31,
+          "transliteration": "Inna lilmuttaqeena mafazan"
+        },
+        {
+          "ayahNumber": 32,
+          "transliteration": "Hadaiqa waaAAnaban"
+        },
+        {
+          "ayahNumber": 33,
+          "transliteration": "WakawaAAiba atraban"
+        },
+        {
+          "ayahNumber": 34,
+          "transliteration": "Wakasan dihaqan"
+        },
+        {
+          "ayahNumber": 35,
+          "transliteration": "La yasmaAAoona feeha laghwan wala kiththaban"
+        },
+        {
+          "ayahNumber": 36,
+          "transliteration": "Jazaan min rabbika AAataan hisaban"
+        },
+        {
+          "ayahNumber": 37,
+          "transliteration": "Rabbi alssamawati waalardi wama baynahuma alrrahmani la yamlikoona minhu khitaban"
+        },
+        {
+          "ayahNumber": 38,
+          "transliteration": "Yawma yaqoomu alrroohu waalmalaikatu saffan la yatakallamoona illa man athina lahu alrrahmanu waqala sawaban"
+        },
+        {
+          "ayahNumber": 39,
+          "transliteration": "Thalika alyawmu alhaqqu faman shaa ittakhatha ila rabbihi maaban"
+        },
+        {
+          "ayahNumber": 40,
+          "transliteration": "Inna antharnakum AAathaban qareeban yawma yanthuru almaro ma qaddamat yadahu wayaqoolu alkafiru ya laytanee kuntu turaban"
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "WaalnnaziAAati gharqan"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waalnnashitati nashtan"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waalssabihati sabhan"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Faalssabiqati sabqan"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Faalmudabbirati amran"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Yawma tarjufu alrrajifatu"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "TatbaAAuha alrradifatu"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Quloobun yawmaithin wajifatun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Absaruha khashiAAatun"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Yaqooloona ainna lamardoodoona fee alhafirati"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Aitha kunna AAithaman nakhiratan"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Qaloo tilka ithan karratun khasiratun"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Fainnama hiya zajratun wahidatun"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Faitha hum bialssahirati"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Hal ataka hadeethu moosa"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Ith nadahu rabbuhu bialwadi almuqaddasi tuwan"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Ithhab ila firAAawna innahu tagha"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Faqul hal laka ila an tazakka"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Waahdiyaka ila rabbika fatakhsha"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Faarahu alayata alkubra"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Fakaththaba waAAasa"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Thumma adbara yasAAa"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Fahashara fanada"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "Faqala ana rabbukumu alaAAla"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Faakhathahu Allahu nakala alakhirati waaloola"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Inna fee thalika laAAibratan liman yakhsha"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "Aantum ashaddu khalqan ami alssamao banaha"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "RafaAAa samkaha fasawwaha"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Waaghtasha laylaha waakhraja duhaha"
+        },
+        {
+          "ayahNumber": 30,
+          "transliteration": "Waalarda baAAda thalika dahaha"
+        },
+        {
+          "ayahNumber": 31,
+          "transliteration": "Akhraja minha maaha wamarAAaha"
+        },
+        {
+          "ayahNumber": 32,
+          "transliteration": "Waaljibala arsaha"
+        },
+        {
+          "ayahNumber": 33,
+          "transliteration": "MataAAan lakum walianAAamikum"
+        },
+        {
+          "ayahNumber": 34,
+          "transliteration": "Faitha jaati alttammatu alkubra"
+        },
+        {
+          "ayahNumber": 35,
+          "transliteration": "Yawma yatathakkaru alinsanu ma saAAa"
+        },
+        {
+          "ayahNumber": 36,
+          "transliteration": "Waburrizati aljaheemu liman yara"
+        },
+        {
+          "ayahNumber": 37,
+          "transliteration": "Faamma man tagha"
+        },
+        {
+          "ayahNumber": 38,
+          "transliteration": "Waathara alhayata alddunya"
+        },
+        {
+          "ayahNumber": 39,
+          "transliteration": "Fainna aljaheema hiya almawa"
+        },
+        {
+          "ayahNumber": 40,
+          "transliteration": "Waama man khafa maqama rabbihi wanaha alnnafsa AAani alhawa"
+        },
+        {
+          "ayahNumber": 41,
+          "transliteration": "Fainna aljannata hiya almawa"
+        },
+        {
+          "ayahNumber": 42,
+          "transliteration": "Yasaloonaka AAani alssaAAati ayyana mursaha"
+        },
+        {
+          "ayahNumber": 43,
+          "transliteration": "Feema anta min thikraha"
+        },
+        {
+          "ayahNumber": 44,
+          "transliteration": "Ila rabbika muntahaha"
+        },
+        {
+          "ayahNumber": 45,
+          "transliteration": "Innama anta munthiru man yakhshaha"
+        },
+        {
+          "ayahNumber": 46,
+          "transliteration": "Kaannahum yawma yarawnaha lam yalbathoo illa AAashiyyatan aw duhaha"
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "AAabasa watawalla"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "An jaahu alaAAma"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wama yudreeka laAAallahu yazzakka"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Aw yaththakkaru fatanfaAAahu alththikra"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Amma mani istaghna"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Faanta lahu tasadda"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Wama AAalayka alla yazzakka"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waamma man jaaka yasAAa"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Wahuwa yakhsha"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Faanta AAanhu talahha"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Kalla innaha tathkiratun"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Faman shaa thakarahu"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Fee suhufin mukarramatin"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "MarfooAAatin mutahharatin"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Biaydee safaratin"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Kiramin bararatin"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Qutila alinsanu ma akfarahu"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Min ayyi shayin khalaqahu"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Min nutfatin khalaqahu faqaddarahu"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Thumma alssabeela yassarahu"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Thumma amatahu faaqbarahu"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Thumma itha shaa ansharahu"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Kalla lamma yaqdi ma amarahu"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "Falyanthuri alinsanu ila taAAamihi"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Anna sababna almaa sabban"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Thumma shaqaqna alarda shaqqan"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "Faanbatna feeha habban"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "WaAAinaban waqadban"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Wazaytoonan wanakhlan"
+        },
+        {
+          "ayahNumber": 30,
+          "transliteration": "Wahadaiqa ghulban"
+        },
+        {
+          "ayahNumber": 31,
+          "transliteration": "Wafakihatan waabban"
+        },
+        {
+          "ayahNumber": 32,
+          "transliteration": "MataAAan lakum walianAAamikum"
+        },
+        {
+          "ayahNumber": 33,
+          "transliteration": "Faitha jaati alssakhkhatu"
+        },
+        {
+          "ayahNumber": 34,
+          "transliteration": "Yawma yafirru almaro min akheehi"
+        },
+        {
+          "ayahNumber": 35,
+          "transliteration": "Waommihi waabeehi"
+        },
+        {
+          "ayahNumber": 36,
+          "transliteration": "Wasahibatihi wabaneehi"
+        },
+        {
+          "ayahNumber": 37,
+          "transliteration": "Likulli imriin minhum yawmaithin shanun yughneehi"
+        },
+        {
+          "ayahNumber": 38,
+          "transliteration": "Wujoohun yawmaithin musfiratun"
+        },
+        {
+          "ayahNumber": 39,
+          "transliteration": "Dahikatun mustabshiratun"
+        },
+        {
+          "ayahNumber": 40,
+          "transliteration": "Wawujoohun yawmaithin AAalayha ghabaratun"
+        },
+        {
+          "ayahNumber": 41,
+          "transliteration": "Tarhaquha qataratun"
+        },
+        {
+          "ayahNumber": 42,
+          "transliteration": "Olaika humu alkafaratu alfajaratu"
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Itha alshshamsu kuwwirat"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waitha alnnujoomu inkadarat"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waitha aljibalu suyyirat"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waitha alAAisharu AAuttilat"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Waitha alwuhooshu hushirat"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Waitha albiharu sujjirat"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Waitha alnnufoosu zuwwijat"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waitha almawoodatu suilat"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Biayyi thanbin qutilat"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Waitha alssuhufu nushirat"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Waitha alssamao kushitat"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Waitha aljaheemu suAAAAirat"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Waitha aljannatu ozlifat"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "AAalimat nafsun ma ahdarat"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Fala oqsimu bialkhunnasi"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Aljawari alkunnasi"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Waallayli itha AAasAAasa"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Waalssubhi itha tanaffasa"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Innahu laqawlu rasoolin kareemin"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Thee quwwatin AAinda thee alAAarshi makeenin"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "MutaAAin thamma ameenin"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Wama sahibukum bimajnoonin"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Walaqad raahu bialofuqi almubeeni"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "Wama huwa AAala alghaybi bidaneenin"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Wama huwa biqawli shaytanin rajeemin"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Faayna tathhaboona"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "In huwa illa thikrun lilAAalameena"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "Liman shaa minkum an yastaqeema"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Wama tashaoona illa an yashaa Allahu rabbu alAAalameena"
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Itha alssamao infatarat"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waitha alkawakibu intatharat"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waitha albiharu fujjirat"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waitha alqubooru buAAthirat"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "AAalimat nafsun ma qaddamat waakhkharat"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Ya ayyuha alinsanu ma gharraka birabbika alkareemi"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Allathee khalaqaka fasawwaka faAAadalaka"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Fee ayyi sooratin ma shaa rakkabaka"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Kalla bal tukaththiboona bialddeeni"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Wainna AAalaykum lahafitheena"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Kiraman katibeena"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "YaAAlamoona ma tafAAaloona"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Inna alabrara lafee naAAeemin"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Wainna alfujjara lafee jaheemin"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Yaslawnaha yawma alddeeni"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Wama hum AAanha bighaibeena"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Wama adraka ma yawmu alddeeni"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Thumma ma adraka ma yawmu alddeeni"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Yawma la tamliku nafsun linafsin shayan waalamru yawmaithin lillahi"
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waylun lilmutaffifeena"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Allatheena itha iktaloo AAala alnnasi yastawfoona"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waitha kaloohum aw wazanoohum yukhsiroona"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Ala yathunnu olaika annahum mabAAoothoona"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Liyawmin AAatheemin"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Yawma yaqoomu alnnasu lirabbi alAAalameena"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Kalla inna kitaba alfujjari lafee sijjeenin"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wama adraka ma sijjeenun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Kitabun marqoomun"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Waylun yawmaithin lilmukaththibeena"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Allatheena yukaththiboona biyawmi alddeeni"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Wama yukaththibu bihi illa kullu muAAtadin atheemin"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Itha tutla AAalayhi ayatuna qala asateeru alawwaleena"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Kalla bal rana AAala quloobihim ma kanoo yaksiboona"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Kalla innahum AAan rabbihim yawmaithin lamahjooboona"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Thumma innahum lasaloo aljaheemi"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Thumma yuqalu hatha allathee kuntum bihi tukaththiboona"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Kalla inna kitaba alabrari lafee AAilliyyeena"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Wama adraka ma AAilliyyoona"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Kitabun marqoomun"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Yashhaduhu almuqarraboona"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Inna alabrara lafee naAAeemin"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "AAala alaraiki yanthuroona"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "TaAArifu fee wujoohihim nadrata alnnaAAeemi"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Yusqawna min raheeqin makhtoomin"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Khitamuhu miskun wafee thalika falyatanafasi almutanafisoona"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "Wamizajuhu min tasneemin"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "AAaynan yashrabu biha almuqarraboona"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Inna allatheena ajramoo kanoo mina allatheena amanoo yadhakoona"
+        },
+        {
+          "ayahNumber": 30,
+          "transliteration": "Waitha marroo bihim yataghamazoona"
+        },
+        {
+          "ayahNumber": 31,
+          "transliteration": "Waitha inqalaboo ila ahlihimu inqalaboo fakiheena"
+        },
+        {
+          "ayahNumber": 32,
+          "transliteration": "Waitha raawhum qaloo inna haolai ladalloona"
+        },
+        {
+          "ayahNumber": 33,
+          "transliteration": "Wama orsiloo AAalayhim hafitheena"
+        },
+        {
+          "ayahNumber": 34,
+          "transliteration": "Faalyawma allatheena amanoo mina alkuffari yadhakoona"
+        },
+        {
+          "ayahNumber": 35,
+          "transliteration": "AAala alaraiki yanthuroona"
+        },
+        {
+          "ayahNumber": 36,
+          "transliteration": "Hal thuwwiba alkuffaru ma kanoo yafAAaloona"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Itha alssamao inshaqqat"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waathinat lirabbiha wahuqqat"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waitha alardu muddat"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waalqat ma feeha watakhallat"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Waathinat lirabbiha wahuqqat"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Ya ayyuha alinsanu innaka kadihun ila rabbika kadhan famulaqeehi"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Faama man ootiya kitabahu biyameenihi"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Fasawfa yuhasabu hisaban yaseeran"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Wayanqalibu ila ahlihi masrooran"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Waamma man ootiya kitabahu waraa thahrihi"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Fasawfa yadAAoo thubooran"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Wayasla saAAeeran"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Innahu kana fee ahlihi masrooran"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Innahu thanna an lan yahoora"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Bala inna rabbahu kana bihi baseeran"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Fala oqsimu bialshshafaqi"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Waallayli wama wasaqa"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Waalqamari itha ittasaqa"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Latarkabunna tabaqan AAan tabaqin"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Fama lahum la yuminoona"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Waitha quria AAalayhimu alquranu la yasjudoona"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Bali allatheena kafaroo yukaththiboona"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "WaAllahu aAAlamu bima yooAAoona"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "Fabashshirhum biAAathabin aleemin"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Illa allatheena amanoo waAAamiloo alssalihati lahum ajrun ghayru mamnoonin"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waalssamai thati alburooji"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waalyawmi almawAAoodi"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Washahidin wamashhoodin"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Qutila ashabu alukhdoodi"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Alnnari thati alwaqoodi"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Ith hum AAalayha quAAoodun"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Wahum AAala ma yafAAaloona bialmumineena shuhoodun"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wama naqamoo minhum illa an yuminoo biAllahi alAAazeezi alhameedi"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Allathee lahu mulku alssamawati waalardi waAllahu AAala kulli shayin shaheedun"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Inna allatheena fatanoo almumineena waalmuminati thumma lam yatooboo falahum AAathabu jahannama walahum AAathabu alhareeqi"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Inna allatheena amanoo waAAamiloo alssalihati lahum jannatun tajree min tahtiha alanharu thalika alfawzu alkabeeru"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Inna batsha rabbika lashadeedun"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Innahu huwa yubdio wayuAAeedu"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Wahuwa alghafooru alwadoodu"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Thoo alAAarshi almajeedi"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "FaAAAAalun lima yureedu"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Hal ataka hadeethu aljunoodi"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "FirAAawna wathamooda"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Bali allatheena kafaroo fee taktheebin"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "WaAllahu min waraihim muheetun"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Bal huwa quranun majeedun"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Fee lawhin mahfoothin"
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waalssamai waalttariqi"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Wama adraka ma alttariqu"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Alnnajmu alththaqibu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "In kullu nafsin lamma AAalayha hafithun"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Falyanthuri alinsanu mimma khuliqa"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Khuliqa min main dafiqin"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Yakhruju min bayni alssulbi waalttaraibi"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Innahu AAala rajAAihi laqadirun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Yawma tubla alssarairu"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Fama lahu min quwwatin wala nasirin"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Waalssamai thati alrrajAAi"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Waalardi thati alssadAAi"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Innahu laqawlun faslun"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Wama huwa bialhazli"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Innahum yakeedoona kaydan"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Waakeedu kaydan"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Famahhili alkafireena amhilhum ruwaydan"
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Sabbihi isma rabbika alaAAla"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Allathee khalaqa fasawwa"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waallathee qaddara fahada"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waallathee akhraja almarAAa"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "FajaAAalahu ghuthaan ahwa"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Sanuqrioka fala tansa"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Illa ma shaa Allahu innahu yaAAlamu aljahra wama yakhfa"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wanuyassiruka lilyusra"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Fathakkir in nafaAAati alththikra"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Sayaththakkaru man yakhsha"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Wayatajannabuha alashqa"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Allathee yasla alnnara alkubra"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Thumma la yamootu feeha wala yahya"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Qad aflaha man tazakka"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Wathakara isma rabbihi fasalla"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Bal tuthiroona alhayata alddunya"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Waalakhiratu khayrun waabqa"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Inna hatha lafee alssuhufi aloola"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Suhufi ibraheema wamoosa"
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Hal ataka hadeethu alghashiyati"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Wujoohun yawmaithin khashiAAatun"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "AAamilatun nasibatun"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Tasla naran hamiyatan"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Tusqa min AAaynin aniyatin"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Laysa lahum taAAamun illa min dareeAAin"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "La yusminu wala yughnee min jooAAin"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wujoohun yawmaithin naAAimatun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "LisaAAyiha radiyatun"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Fee jannatin AAaliyatin"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "La tasmaAAu feeha laghiyatan"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Feeha AAaynun jariyatun"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Feeha sururun marfooAAatun"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Waakwabun mawdooAAatun"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Wanamariqu masfoofatun"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Wazarabiyyu mabthoothatun"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Afala yanthuroona ila alibili kayfa khuliqat"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Waila alssamai kayfa rufiAAat"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Waila aljibali kayfa nusibat"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Waila alardi kayfa sutihat"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Fathakkir innama anta muthakkirun"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Lasta AAalayhim bimusaytirin"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Illa man tawalla wakafara"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "FayuAAaththibuhu Allahu alAAathaba alakbara"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Inna ilayna iyabahum"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Thumma inna AAalayna hisabahum"
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waalfajri"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Walayalin AAashrin"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "WaalshshafAAi waalwatri"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waallayli itha yasri"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Hal fee thalika qasamun lithee hijrin"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Alam tara kayfa faAAala rabbuka biAAadin"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Irama thati alAAimadi"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Allatee lam yukhlaq mithluha fee albiladi"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Wathamooda allatheena jaboo alssakhra bialwadi"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "WafirAAawna thee alawtadi"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Allatheena taghaw fee albiladi"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Faaktharoo feeha alfasada"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Fasabba AAalayhim rabbuka sawta AAathabin"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Inna rabbaka labialmirsadi"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Faamma alinsanu itha ma ibtalahu rabbuhu faakramahu wanaAAAAamahu fayaqoolu rabbee akramani"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Waamma itha ma ibtalahu faqadara AAalayhi rizqahu fayaqoolu rabbee ahanani"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Kalla bal la tukrimoona alyateema"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Wala tahaddoona AAala taAAami almiskeeni"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Watakuloona altturatha aklan lamman"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Watuhibboona almala hubban jamman"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Kalla itha dukkati alardu dakkan dakkan"
+        },
+        {
+          "ayahNumber": 22,
+          "transliteration": "Wajaa rabbuka waalmalaku saffan saffan"
+        },
+        {
+          "ayahNumber": 23,
+          "transliteration": "Wajeea yawmaithin bijahannama yawmaithin yatathakkaru alinsanu waanna lahu alththikra"
+        },
+        {
+          "ayahNumber": 24,
+          "transliteration": "Yaqoolu ya laytanee qaddamtu lihayatee"
+        },
+        {
+          "ayahNumber": 25,
+          "transliteration": "Fayawmaithin la yuAAaththibu AAathabahu ahadun"
+        },
+        {
+          "ayahNumber": 26,
+          "transliteration": "Wala yoothiqu wathaqahu ahadun"
+        },
+        {
+          "ayahNumber": 27,
+          "transliteration": "Ya ayyatuha alnnafsu almutmainnatu"
+        },
+        {
+          "ayahNumber": 28,
+          "transliteration": "IrjiAAee ila rabbiki radiyatan mardiyyatan"
+        },
+        {
+          "ayahNumber": 29,
+          "transliteration": "Faodkhulee fee AAibadee"
+        },
+        {
+          "ayahNumber": 30,
+          "transliteration": "Waodkhulee jannatee"
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "La oqsimu bihatha albaladi"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waanta hillun bihatha albaladi"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wawalidin wama walada"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Laqad khalaqna alinsana fee kabadin"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Ayahsabu an lan yaqdira AAalayhi ahadun"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Yaqoolu ahlaktu malan lubadan"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Ayahsabu an lam yarahu ahadun"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Alam najAAal lahu AAaynayni"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Walisanan washafatayni"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Wahadaynahu alnnajdayni"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Fala iqtahama alAAaqabata"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Wama adraka ma alAAaqabatu"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Fakku raqabatin"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Aw itAAamun fee yawmin thee masghabatin"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Yateeman tha maqrabatin"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Aw miskeenan tha matrabatin"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Thumma kana mina allatheena amanoo watawasaw bialssabri watawasaw bialmarhamati"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Olaika ashabu almaymanati"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Waallatheena kafaroo biayatina hum ashabu almashamati"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "AAalayhim narun musadatun"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waalshshamsi waduhaha"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waalqamari itha talaha"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waalnnahari itha jallaha"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waallayli itha yaghshaha"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Waalssamai wama banaha"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Waalardi wama tahaha"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Wanafsin wama sawwaha"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Faalhamaha fujooraha wataqwaha"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Qad aflaha man zakkaha"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Waqad khaba man dassaha"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Kaththabat thamoodu bitaghwaha"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Ithi inbaAAatha ashqaha"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Faqala lahum rasoolu Allahi naqata Allahi wasuqyaha"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Fakaththaboohu faAAaqarooha fadamdama AAalayhim rabbuhum bithanbihim fasawwaha"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Wala yakhafu AAuqbaha"
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waallayli itha yaghsha"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waalnnahari itha tajalla"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wama khalaqa alththakara waalontha"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Inna saAAyakum lashatta"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Faamma man aAAta waittaqa"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Wasaddaqa bialhusna"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Fasanuyassiruhu lilyusra"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waamma man bakhila waistaghna"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Wakaththaba bialhusna"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Fasanuyassiruhu lilAAusra"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Wama yughnee AAanhu maluhu itha taradda"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Inna AAalayna lalhuda"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Wainna lana lalakhirata waaloola"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Faanthartukum naran talaththa"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "La yaslaha illa alashqa"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Allathee kaththaba watawalla"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "Wasayujannabuha alatqa"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "Allathee yutee malahu yatazakka"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Wama liahadin AAindahu min niAAmatin tujza"
+        },
+        {
+          "ayahNumber": 20,
+          "transliteration": "Illa ibtighaa wajhi rabbihi alaAAla"
+        },
+        {
+          "ayahNumber": 21,
+          "transliteration": "Walasawfa yarda"
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waaldduha"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waallayli itha saja"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Ma waddaAAaka rabbuka wama qala"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Walalakhiratu khayrun laka mina aloola"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Walasawfa yuAAteeka rabbuka fatarda"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Alam yajidka yateeman faawa"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Wawajadaka dallan fahada"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wawajadaka AAailan faaghna"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Faamma alyateema fala taqhar"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Waamma alssaila fala tanhar"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Waamma biniAAmati rabbika fahaddith"
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Alam nashrah laka sadraka"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "WawadaAAna AAanka wizraka"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Allathee anqada thahraka"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "WarafaAAna laka thikraka"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Fainna maAAa alAAusri yusran"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Inna maAAa alAAusri yusran"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Faitha faraghta fainsab"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waila rabbika fairghab"
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waaltteeni waalzzaytooni"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Watoori seeneena"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wahatha albaladi alameeni"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Laqad khalaqna alinsana fee ahsani taqweemin"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Thumma radadnahu asfala safileena"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Illa allatheena amanoo waAAamiloo alssalihati falahum ajrun ghayru mamnoonin"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Fama yukaththibuka baAAdu bialddeeni"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Alaysa Allahu biahkami alhakimeena"
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Iqra biismi rabbika allathee khalaqa"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Khalaqa alinsana min AAalaqin"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Iqra warabbuka alakramu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Allathee AAallama bialqalami"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "AAallama alinsana ma lam yaAAlam"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Kalla inna alinsana layatgha"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "An raahu istaghna"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Inna ila rabbika alrrujAAa"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Araayta allathee yanha"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "AAabdan itha salla"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Araayta in kana AAala alhuda"
+        },
+        {
+          "ayahNumber": 12,
+          "transliteration": "Aw amara bialttaqwa"
+        },
+        {
+          "ayahNumber": 13,
+          "transliteration": "Araayta in kaththaba watawalla"
+        },
+        {
+          "ayahNumber": 14,
+          "transliteration": "Alam yaAAlam bianna Allaha yara"
+        },
+        {
+          "ayahNumber": 15,
+          "transliteration": "Kalla lain lam yantahi lanasfaAAan bialnnasiyati"
+        },
+        {
+          "ayahNumber": 16,
+          "transliteration": "Nasiyatin kathibatin khatiatin"
+        },
+        {
+          "ayahNumber": 17,
+          "transliteration": "FalyadAAu nadiyahu"
+        },
+        {
+          "ayahNumber": 18,
+          "transliteration": "SanadAAu alzzabaniyata"
+        },
+        {
+          "ayahNumber": 19,
+          "transliteration": "Kalla la tutiAAhu waosjud waiqtarib"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Inna anzalnahu fee laylati alqadri"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Wama adraka ma laylatu alqadri"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Laylatu alqadri khayrun min alfi shahrin"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Tanazzalu almalaikatu waalrroohu feeha biithni rabbihim min kulli amrin"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Salamun hiya hatta matlaAAi alfajri"
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Lam yakuni allatheena kafaroo min ahli alkitabi waalmushrikeena munfakkeena hatta tatiyahumu albayyinatu"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Rasoolun mina Allahi yatloo suhufan mutahharatan"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Feeha kutubun qayyimatun"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Wama tafarraqa allatheena ootoo alkitaba illa min baAAdi ma jaathumu albayyinatu"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Wama omiroo illa liyaAAbudoo Allaha mukhliseena lahu alddeena hunafaa wayuqeemoo alssalata wayutoo alzzakata wathalika deenu alqayyimati"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Inna allatheena kafaroo min ahli alkitabi waalmushrikeena fee nari jahannama khalideena feeha olaika hum sharru albariyyati"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Inna allatheena amanoo waAAamiloo alssalihati olaika hum khayru albariyyati"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Jazaohum AAinda rabbihim jannatu AAadnin tajree min tahtiha alanharu khalideena feeha abadan radiya Allahu AAanhum waradoo AAanhu thalika liman khashiya rabbahu"
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Itha zulzilati alardu zilzalaha"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waakhrajati alardu athqalaha"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waqala alinsanu ma laha"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Yawmaithin tuhaddithu akhbaraha"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Bianna rabbaka awha laha"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Yawmaithin yasduru alnnasu ashtatan liyuraw aAAmalahum"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Faman yaAAmal mithqala tharratin khayran yarahu"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waman yaAAmal mithqala tharratin sharran yarahu"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "WaalAAadiyati dabhan"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Faalmooriyati qadhan"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Faalmugheerati subhan"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Faatharna bihi naqAAan"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Fawasatna bihi jamAAan"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Inna alinsana lirabbihi lakanoodun"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Wainnahu AAala thalika lashaheedun"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Wainnahu lihubbi alkhayri lashadeedun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Afala yaAAlamu itha buAAthira ma fee alquboori"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Wahussila ma fee alssudoori"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Inna rabbahum bihim yawmaithin lakhabeerun"
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "AlqariAAatu"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Ma alqariAAatu"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wama adraka ma alqariAAatu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Yawma yakoonu alnnasu kaalfarashi almabthoothi"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Watakoonu aljibalu kaalAAihni almanfooshi"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Faamma man thaqulat mawazeenuhu"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Fahuwa fee AAeeshatin radiyatin"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Waamma man khaffat mawazeenuhu"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Faommuhu hawiyatun"
+        },
+        {
+          "ayahNumber": 10,
+          "transliteration": "Wama adraka ma hiyah"
+        },
+        {
+          "ayahNumber": 11,
+          "transliteration": "Narun hamiyatun"
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Alhakumu alttakathuru"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Hatta zurtumu almaqabira"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Kalla sawfa taAAlamoona"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Thumma kalla sawfa taAAlamoona"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Kalla law taAAlamoona AAilma alyaqeeni"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Latarawunna aljaheema"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Thumma latarawunnaha AAayna alyaqeeni"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "Thumma latusalunna yawmaithin AAani alnnaAAeemi"
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "WaalAAasri"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Inna alinsana lafee khusrin"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Illa allatheena amanoo waAAamiloo alssalihati watawasaw bialhaqqi watawasaw bialssabri"
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Waylun likulli humazatin lumazatin"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Allathee jamaAAa malan waAAaddadahu"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Yahsabu anna malahu akhladahu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Kalla layunbathanna fee alhutamati"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Wama adraka ma alhutamatu"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Naru Allahi almooqadatu"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "Allatee tattaliAAu AAala alafidati"
+        },
+        {
+          "ayahNumber": 8,
+          "transliteration": "lnnaha AAalayhim musadatun"
+        },
+        {
+          "ayahNumber": 9,
+          "transliteration": "Fee AAamadin mumaddadatin"
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Alam tara kayfa faAAala rabbuka biashabi alfeeli"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Alam yajAAal kaydahum fee tadleelin"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Waarsala AAalayhim tayran ababeela"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Tarmeehim bihijaratin min sijjeelin"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "FajaAAalahum kaAAasfin makoolin"
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Lieelafi qurayshin"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Eelafihim rihlata alshshitai waalssayfi"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "FalyaAAbudoo rabba hatha albayti"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Allathee atAAamahum min jooAAin waamanahum min khawfin"
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Araayta allathee yukaththibu bialddeeni"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Fathalika allathee yaduAAAAu alyateema"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wala yahuddu AAala taAAami almiskeeni"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Fawaylun lilmusalleena"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Allatheena hum AAan salatihim sahoona"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Allatheena hum yuraoona"
+        },
+        {
+          "ayahNumber": 7,
+          "transliteration": "WayamnaAAoona almaAAoona"
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Inna aAAtaynaka alkawthara"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Fasalli lirabbika wainhar"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Inna shaniaka huwa alabtaru"
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Qul ya ayyuha alkafiroona"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "La aAAbudu ma taAAbudoona"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wala antum AAabidoona ma aAAbudu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Wala ana AAabidun ma AAabadtum"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Wala antum AAabidoona ma aAAbudu"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Lakum deenukum waliya deeni"
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Itha jaa nasru Allahi waalfathu"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Waraayta alnnasa yadkhuloona fee deeni Allahi afwajan"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Fasabbih bihamdi rabbika waistaghfirhu innahu kana tawwaban"
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Tabbat yada abee lahabin watabba"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Ma aghna AAanhu maluhu wama kasaba"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Sayasla naran thata lahabin"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Waimraatuhu hammalata alhatabi"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Fee jeediha hablun min masadin"
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Qul huwa Allahu ahadun"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Allahu alssamadu"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Lam yalid walam yooladu"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Walam yakun lahu kufuwan ahadun"
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Qul aAAoothu birabbi alfalaqi"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Min sharri ma khalaqa"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Wamin sharri ghasiqin itha waqaba"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Wamin sharri alnnaffathati fee alAAuqadi"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Wamin sharri hasidin itha hasada"
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "verses": [
+        {
+          "ayahNumber": 1,
+          "transliteration": "Qul aAAoothu birabbi alnnasi"
+        },
+        {
+          "ayahNumber": 2,
+          "transliteration": "Maliki alnnasi"
+        },
+        {
+          "ayahNumber": 3,
+          "transliteration": "Ilahi alnnasi"
+        },
+        {
+          "ayahNumber": 4,
+          "transliteration": "Min sharri alwaswasi alkhannasi"
+        },
+        {
+          "ayahNumber": 5,
+          "transliteration": "Allathee yuwaswisu fee sudoori alnnasi"
+        },
+        {
+          "ayahNumber": 6,
+          "transliteration": "Mina aljinnati wa alnnasm"
+        }
+      ]
+    }
+  ]
+}

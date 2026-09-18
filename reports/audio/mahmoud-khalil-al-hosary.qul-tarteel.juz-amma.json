@@ -1,0 +1,349 @@
+{
+  "manifestVersion": 1,
+  "scope": "Juz Amma (78-114)",
+  "generatedAt": "2026-09-18T00:46:39.253Z",
+  "reciter": {
+    "name": "Mahmoud Khalil Al Hosary",
+    "riwayah": "Hafs 'an 'Asim",
+    "style": "Murattal",
+    "source": "QUL/Tarteel",
+    "licenseNote": "QUL/Tarteel Husary Murattal gapless assets with ayah timing segments; source attribution retained in the audio manifest."
+  },
+  "bucket": "hafalku",
+  "prefix": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1",
+  "files": [
+    {
+      "surahNumber": 78,
+      "sourceFile": "078.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/078.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/078.mp3",
+      "bytes": 6320171,
+      "checksumSha256": "db83d9ebf3eb85fd1f5e6974180b902b305007e5cdc11e5430cd61455dcf2ec3",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 79,
+      "sourceFile": "079.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/079.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/079.mp3",
+      "bytes": 6301784,
+      "checksumSha256": "850ea2a913baaa181df8270fb6a4efaa43d03b6d9310e7d1a22a481436e3efb3",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 80,
+      "sourceFile": "080.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/080.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/080.mp3",
+      "bytes": 4408843,
+      "checksumSha256": "2946da78f1390d609d2fab57d118b1b64120c87fff8bd1b6a148364f720855be",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 81,
+      "sourceFile": "081.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/081.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/081.mp3",
+      "bytes": 3341796,
+      "checksumSha256": "4eed47a5b573d759d037b7ced8a0c46ffb977191db570b330f659ac221c220ae",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 82,
+      "sourceFile": "082.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/082.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/082.mp3",
+      "bytes": 2748295,
+      "checksumSha256": "c49c0879702dc242f35c07c5ae5638b1f731094581d13ab97200eddfc332169e",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 83,
+      "sourceFile": "083.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/083.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/083.mp3",
+      "bytes": 6377020,
+      "checksumSha256": "04ccf981064eaab8903490ddad39041330a82d349ad8d84db6e94f722876dd53",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 84,
+      "sourceFile": "084.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/084.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/084.mp3",
+      "bytes": 3577527,
+      "checksumSha256": "4de0efe510f1e53e2cdb9e738464798c4315e1527ab701e0bef8d5eb85090a11",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 85,
+      "sourceFile": "085.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/085.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/085.mp3",
+      "bytes": 3675327,
+      "checksumSha256": "f666ee3d21265eedd43db26bef6555ac0d0eb9f6f0e51cb6099397de02a045df",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 86,
+      "sourceFile": "086.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/086.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/086.mp3",
+      "bytes": 2032747,
+      "checksumSha256": "2683c6b9fa283601b6e752fdcb1fb5589616b00c6588ea289bed7362eb7ef708",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 87,
+      "sourceFile": "087.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/087.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/087.mp3",
+      "bytes": 2422284,
+      "checksumSha256": "a543e392cb17303b9c1d5b569d559a1cc4eb2a4f18da6df1844813c71fb02aaa",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 88,
+      "sourceFile": "088.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/088.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/088.mp3",
+      "bytes": 3376072,
+      "checksumSha256": "1eea7c8539acd9c1dedb63e88daee9f006e329de675391f08b2fa086d457aa95",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 89,
+      "sourceFile": "089.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/089.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/089.mp3",
+      "bytes": 5049993,
+      "checksumSha256": "8d98f783b6f883de117092db64ef0bdbfbb3df358db1f8ed607ad09a0cdcbd14",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 90,
+      "sourceFile": "090.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/090.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/090.mp3",
+      "bytes": 2778386,
+      "checksumSha256": "8e86f32048ba66d5af86248ff09d401c34f7b5af27a48ee66778ddaf90d08d51",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 91,
+      "sourceFile": "091.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/091.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/091.mp3",
+      "bytes": 1878103,
+      "checksumSha256": "ffb81a4ced5f01f4bdc804d2c688bff9a48f71310e42b8967e2ffad5b743e37c",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 92,
+      "sourceFile": "092.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/092.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/092.mp3",
+      "bytes": 2501696,
+      "checksumSha256": "dad1358fc8535339f47c070d5a426a312933b3c8f20bd46251b7590a8d55d93c",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 93,
+      "sourceFile": "093.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/093.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/093.mp3",
+      "bytes": 1333919,
+      "checksumSha256": "2ad825052d8c420e38aaae2ee9249f1bee4207aac5c79f7b6a2740a584362c6f",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 94,
+      "sourceFile": "094.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/094.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/094.mp3",
+      "bytes": 829862,
+      "checksumSha256": "7b317d61d274dae5da5f0867e6702ee45ca362549491d81a28be16981bf17857",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 95,
+      "sourceFile": "095.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/095.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/095.mp3",
+      "bytes": 1178854,
+      "checksumSha256": "100cbc5e24d2e52b3325667e9b1b6a64b651594e24effa141d8fa1cd41cdc496",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 96,
+      "sourceFile": "096.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/096.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/096.mp3",
+      "bytes": 2326990,
+      "checksumSha256": "88f07da9176db3e41e259fba68dcb57ffdfaa749dca898354a5c189e76ce3c2c",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 97,
+      "sourceFile": "097.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/097.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/097.mp3",
+      "bytes": 897987,
+      "checksumSha256": "313dd5b9134b0b7b72a05a70db13a154ae4cd59d502a49a66e93995dcbc4fc36",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 98,
+      "sourceFile": "098.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/098.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/098.mp3",
+      "bytes": 2805975,
+      "checksumSha256": "5d22eb5d362e974d338dcb8cd96b07e616b9788aaa79d41fc11ff365a1ba8f2e",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 99,
+      "sourceFile": "099.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/099.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/099.mp3",
+      "bytes": 1238628,
+      "checksumSha256": "e503f4f5dbd53aa80d2d62785d6ba3dd3120c13f337ec5c39b8053ddfa03e60f",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 100,
+      "sourceFile": "100.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/100.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/100.mp3",
+      "bytes": 1333086,
+      "checksumSha256": "6d31ceeea05b4daf2c94a2d964bd195f3e0fbe4bf5d0cf76e19a84b3e3edf984",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 101,
+      "sourceFile": "101.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/101.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/101.mp3",
+      "bytes": 1269975,
+      "checksumSha256": "678b2587fd6a72836113f4daad4394f983bbd6670ea675dd2a9f04b7a91f2020",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 102,
+      "sourceFile": "102.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/102.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/102.mp3",
+      "bytes": 1023380,
+      "checksumSha256": "7acd873b015ddbf0437491be73f5350b6faf98eafcaac64178e355f28b91a46c",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 103,
+      "sourceFile": "103.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/103.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/103.mp3",
+      "bytes": 475849,
+      "checksumSha256": "49c91b1741479d1a6e1a65df67a63a3c3ff1bca4fbd9ecde20cdc817091cbeae",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 104,
+      "sourceFile": "104.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/104.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/104.mp3",
+      "bytes": 1090670,
+      "checksumSha256": "63bd252140f69036447e35c31074026ac9e7570b491aa35a3292f49eb7bc1179",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 105,
+      "sourceFile": "105.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/105.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/105.mp3",
+      "bytes": 749193,
+      "checksumSha256": "383617889242e9068332df28664120716e8bc7006e5f5507d639f2033a42ff2c",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 106,
+      "sourceFile": "106.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/106.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/106.mp3",
+      "bytes": 647630,
+      "checksumSha256": "5c3090d557f0b4608008b80ac5f0ceab6f0121bc23d97668c74ce97b6517f595",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 107,
+      "sourceFile": "107.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/107.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/107.mp3",
+      "bytes": 910946,
+      "checksumSha256": "fec2ea84f719db888c1a31aac2e81f1398a39e55e33b13808b554b25f4864471",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 108,
+      "sourceFile": "108.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/108.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/108.mp3",
+      "bytes": 365093,
+      "checksumSha256": "543de7f45a5cb971f7c485d28da21db67b77380abf290ce8c3800ad640b0e1d8",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 109,
+      "sourceFile": "109.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/109.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/109.mp3",
+      "bytes": 872495,
+      "checksumSha256": "e64fd64ae81b5316534671707830c8f1253da83a21dcb640d0cd88de642bfbf7",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 110,
+      "sourceFile": "110.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/110.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/110.mp3",
+      "bytes": 615447,
+      "checksumSha256": "82386bef0060116c502021ae493d5975b4da4b366a59016258b6dffba1d43110",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 111,
+      "sourceFile": "111.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/111.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/111.mp3",
+      "bytes": 696951,
+      "checksumSha256": "136be79b7c1d9dd587233fc7744b2ac0c5723f97c5d96068d207d5246ee1f4c3",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 112,
+      "sourceFile": "112.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/112.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/112.mp3",
+      "bytes": 404380,
+      "checksumSha256": "ad450681c173ba26e4e51c7706e91d5062947a4f4ef4da1468d11779788225d2",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 113,
+      "sourceFile": "113.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/113.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/113.mp3",
+      "bytes": 589117,
+      "checksumSha256": "f326af50553d7f7dee76f7038f592b87398b161fd46469d0f302df33360cd16d",
+      "status": "uploaded"
+    },
+    {
+      "surahNumber": 114,
+      "sourceFile": "114.mp3",
+      "objectKey": "quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/114.mp3",
+      "publicUrl": "https://eu2.contabostorage.com/181cae3e2bc747c29f9c8d3cd4a38e57:hafalku/quran/audio/mahmoud-khalil-al-hosary/hafs-murattal/qul-tarteel-v1/114.mp3",
+      "bytes": 743760,
+      "checksumSha256": "088f20d2e0482c6a9d51f2ff3007be5eb63aab5dc7ee325cb4396db28b3d0720",
+      "status": "uploaded"
+    }
+  ]
+}

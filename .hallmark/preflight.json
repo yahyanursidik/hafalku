@@ -1,0 +1,18 @@
+{
+  "scannedAt": "2026-09-18",
+  "framework": "React 18 + Vite 7 + React Router",
+  "fonts": {
+    "display": "Iowan Old Style / Palatino fallback",
+    "body": "system sans-serif",
+    "arabic": "Noto Naskh Arabic / Amiri fallback"
+  },
+  "palette": "Existing OKLCH paper, forest accent, and learning-chunk tokens in src/styles/tokens.css",
+  "motion": "motion-cut; no motion library installed",
+  "spacing": "Existing 4px-derived --space-1 through --space-7 scale",
+  "preserve": [
+    "existing tokens and font roles",
+    "mobile-first 320px floor",
+    "child-facing custom UI",
+    "Arabic-first learning flow"
+  ]
+}
