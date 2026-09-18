@@ -9,7 +9,7 @@ export function AppShell() {
           <span className="brand-mark" aria-hidden="true">
             <img src="/brand/hafalku-logo.png" alt="" />
           </span>
-          <span>{appConfig.name}</span>
+          <span className="app-wordmark">{appConfig.name}</span>
         </Link>
         <nav aria-label="Navigasi utama">
           <NavLink end to="/">
@@ -21,9 +21,12 @@ export function AppShell() {
       </header>
       <Outlet />
       <footer className="app-footer">
-        <p>Belajar satu ayat, lalu ulangi sampai terasa mantap.</p>
-        <div>
+        <div className="app-footer-brand">
           <span>{appConfig.name}</span>
+          <p>Teman kecil untuk membaca, mendengar, dan mengulang hafalan.</p>
+        </div>
+        <div className="app-footer-links">
+          <Link to="/">Beranda</Link>
           <Link to="/surah">Juz Amma</Link>
         </div>
       </footer>

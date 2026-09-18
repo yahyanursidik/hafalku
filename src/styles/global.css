@@ -1,4 +1,4 @@
-/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: playful · macrostructure: Narrative Workflow · theme: Hum · enrichment: Tier-A CSS learning path · nav: N7 · footer: Ft5 · tone: soft child-first · anchor hue: forest · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: playful · macrostructure: Catalogue · theme: Hum · enrichment: none · nav: compact product · footer: Ft1 · tone: encouraging child-first · anchor hue: forest · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
 @import "./tokens.css";
 
 @font-face {
@@ -646,6 +646,488 @@ button:disabled {
   .app-start-link:active,
   .home-primary-action:active,
   .home-starter-card:hover {
+    transform: none;
+  }
+}
+
+/* Catalogue refresh: learning controls read as choices, not an admin toolbar. */
+.app-header {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: var(--space-2);
+  padding-inline: var(--space-3);
+}
+
+.app-name {
+  min-width: 0;
+  gap: var(--space-1);
+}
+
+.app-wordmark {
+  overflow: hidden;
+  font-size: 0.98rem;
+  font-weight: 850;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  inline-size: var(--brand-mark-size);
+  block-size: var(--brand-mark-size);
+  flex: 0 0 var(--brand-mark-size);
+  border-radius: 0.65rem;
+  background: var(--color-logo-surface);
+}
+
+.brand-mark img {
+  width: var(--brand-image-width);
+  max-width: none;
+  transform: translate(var(--brand-image-x), var(--brand-image-y));
+}
+
+.app-header nav {
+  gap: 0;
+}
+
+.app-header nav a {
+  min-height: 2.75rem;
+  padding-inline: var(--space-1);
+  font-size: 0.78rem;
+}
+
+.app-start-link {
+  min-height: 2.75rem;
+  padding-inline: var(--space-2);
+  font-size: 0.82rem;
+}
+
+button {
+  min-height: 3rem;
+  border: 2px solid var(--color-rule);
+  border-radius: var(--radius-control);
+  background: var(--color-control-surface);
+  color: var(--color-ink);
+  font-family: var(--font-home);
+  font-weight: 800;
+  line-height: 1.15;
+  transition: background-color var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out);
+}
+
+button:not(:disabled):active {
+  transform: translateY(1px);
+}
+
+button[aria-pressed="true"] {
+  border-color: var(--color-control-edge);
+  background: var(--color-control-active);
+}
+
+button:disabled {
+  border-color: var(--color-rule);
+  background: var(--color-control-disabled);
+  color: var(--color-muted);
+  opacity: 0.78;
+}
+
+.button-primary {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  box-shadow: 0 3px 0 var(--color-control-edge);
+}
+
+.button-primary:not(:disabled):active {
+  box-shadow: 0 1px 0 var(--color-control-edge);
+}
+
+.surah-page {
+  padding-top: var(--space-6);
+}
+
+.surah-kicker {
+  margin: 0 0 var(--space-2);
+  color: var(--color-accent);
+  font-family: var(--font-home);
+  font-size: var(--text-sm);
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.surah-page h1 {
+  max-width: 14ch;
+}
+
+.surah-intro {
+  max-width: 45ch;
+  margin-block: var(--space-2) var(--space-6);
+  color: var(--color-muted);
+  line-height: 1.55;
+}
+
+.surah-list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.surah-list li {
+  margin: 0;
+  border: 0;
+}
+
+.surah-list-card {
+  display: grid;
+  grid-template-columns: 2.8rem minmax(0, 1fr) auto;
+  gap: var(--space-2);
+  align-items: center;
+  min-height: 5.75rem;
+  padding: var(--space-3);
+  border: 2px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  background: var(--color-control-surface);
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.surah-tone-0 { background: var(--color-home-pear); }
+.surah-tone-1 { background: var(--color-home-cyan); }
+.surah-tone-2 { background: var(--color-chunk-three); }
+
+.surah-number {
+  display: grid;
+  place-items: center;
+  align-self: stretch;
+  min-width: 2.8rem;
+  border: 1px solid color-mix(in oklch, var(--color-ink) 25%, transparent);
+  border-radius: var(--radius-control);
+  background: var(--color-paper-raised);
+  font-family: var(--font-home);
+  font-size: 1.2rem;
+  font-weight: 850;
+  line-height: 1;
+}
+
+.surah-number small {
+  font-size: 0.58rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.surah-name {
+  display: grid;
+  min-width: 0;
+  gap: 0.2rem;
+}
+
+.surah-name strong {
+  font-family: var(--font-home);
+  font-size: 1.03rem;
+}
+
+.surah-name small {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+}
+
+.surah-arabic {
+  grid-column: 2 / -1;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.surah-open {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  font-size: 1.4rem;
+  font-weight: 850;
+}
+
+.player-topline {
+  font-family: var(--font-home);
+  font-size: var(--text-sm);
+  font-weight: 750;
+}
+
+.player-topline a {
+  color: var(--color-accent);
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.2em;
+}
+
+.audio-player {
+  display: grid;
+  gap: var(--space-3);
+  padding-block: var(--space-4);
+  border-block: 2px solid var(--color-rule);
+}
+
+.audio-actions {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.audio-listen-control,
+.repeat-group {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.audio-control-label {
+  color: var(--color-muted);
+  font-family: var(--font-home);
+  font-size: var(--text-sm);
+  font-weight: 800;
+}
+
+.audio-play-button {
+  width: fit-content;
+  min-width: 8rem;
+  padding-inline: var(--space-4);
+}
+
+.audio-button-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 1.1rem;
+  margin-right: var(--space-1);
+}
+
+.repeat-controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-1);
+}
+
+.repeat-controls button {
+  min-height: 3rem;
+  padding-inline: 0.3rem;
+}
+
+.repeat-controls button span:first-child {
+  margin-right: 0.12rem;
+}
+
+.audio-status {
+  margin: 0;
+  padding: var(--space-3);
+  border-radius: var(--radius-control);
+  background: var(--color-info-surface);
+  color: var(--color-ink);
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.player-options {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.learning-control {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  align-content: center;
+  gap: 0.3rem;
+  min-height: 7rem;
+  padding: var(--space-3) var(--space-2);
+  text-align: center;
+}
+
+.learning-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-paper-raised);
+  font-family: var(--font-home);
+  font-size: 1.1rem;
+  font-weight: 850;
+}
+
+.learning-icon-arabic {
+  font-family: var(--font-arabic);
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.learning-control-label {
+  font-family: var(--font-home);
+  font-size: var(--text-sm);
+  font-weight: 850;
+}
+
+.learning-control-state {
+  color: var(--color-muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+}
+
+.learning-control[aria-pressed="true"] .learning-icon {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+.learning-control[aria-pressed="true"] .learning-control-state {
+  color: var(--color-control-edge);
+}
+
+.learning-icon-color {
+  display: flex;
+  gap: 0.18rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.learning-icon-color i {
+  display: block;
+  width: 0.35rem;
+  height: 1rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-chunk-one);
+}
+
+.learning-icon-color i:nth-child(2) { background: var(--color-chunk-two); }
+.learning-icon-color i:nth-child(3) { background: var(--color-chunk-three); }
+
+.learning-icon-focus {
+  position: relative;
+}
+
+.learning-icon-focus i {
+  position: absolute;
+  width: 0.48rem;
+  height: 0.48rem;
+  border: 2px solid currentColor;
+}
+
+.learning-icon-focus i:nth-child(1) { top: 0.42rem; left: 0.42rem; border-right: 0; border-bottom: 0; }
+.learning-icon-focus i:nth-child(2) { top: 0.42rem; right: 0.42rem; border-bottom: 0; border-left: 0; }
+.learning-icon-focus i:nth-child(3) { bottom: 0.42rem; left: 0.42rem; border-top: 0; border-right: 0; }
+.learning-icon-focus i:nth-child(4) { right: 0.42rem; bottom: 0.42rem; border-top: 0; border-left: 0; }
+
+.learning-flow-note {
+  margin-block: 0 var(--space-2);
+  padding: var(--space-3);
+  border: 1px solid var(--color-chunk-two);
+  background: var(--color-control-surface);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.verse-navigation {
+  gap: var(--space-2);
+}
+
+.verse-navigation button {
+  min-height: 3.25rem;
+}
+
+.app-footer {
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-4);
+  border-top: 2px solid var(--color-ink);
+  background: var(--color-logo-surface);
+}
+
+.app-footer-brand {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.app-footer-brand > span {
+  font-size: 1.4rem;
+  font-weight: 850;
+  letter-spacing: -0.04em;
+}
+
+.app-footer-brand p {
+  max-width: 45ch;
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+.app-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-rule);
+  font-size: var(--text-sm);
+  font-weight: 800;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .surah-list-card:hover {
+    border-color: var(--color-control-edge);
+  }
+
+  button:not(:disabled):hover {
+    border-color: var(--color-control-edge);
+  }
+}
+
+@media (min-width: 40rem) {
+  .app-header {
+    padding-inline: var(--space-4);
+  }
+
+  .app-wordmark {
+    font-size: 1.05rem;
+  }
+
+  .surah-list-card {
+    grid-template-columns: 3.1rem minmax(0, 1fr) auto auto;
+    min-height: 5.25rem;
+  }
+
+  .surah-number {
+    min-width: 3.1rem;
+  }
+
+  .surah-arabic {
+    grid-column: auto;
+    grid-row: auto;
+    margin-inline: var(--space-2);
+    font-size: 1.65rem;
+  }
+
+  .surah-open {
+    grid-column: auto;
+  }
+
+  .audio-actions {
+    grid-template-columns: minmax(9rem, auto) minmax(0, 1fr);
+    align-items: end;
+  }
+
+  .player-options {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .app-footer {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+
+  .app-footer-links {
+    padding-top: 0;
+    border-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button {
+    transition-duration: 150ms;
+  }
+
+  button:not(:disabled):active {
     transform: none;
   }
 }

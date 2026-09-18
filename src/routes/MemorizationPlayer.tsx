@@ -30,8 +30,8 @@ export function MemorizationPlayer() {
   return (
     <main className={`player-page ${focusMode ? "is-focused" : ""}`} aria-labelledby="player-title">
       <div className="player-topline">
-        <Link to="/surah">Surah</Link>
-        <span>{verseIndex + 1} dari {surah.verses.length}</span>
+        <Link to="/surah">← Semua surah</Link>
+        <span>Ayat {verseIndex + 1} dari {surah.verses.length}</span>
       </div>
       <header className="player-heading">
         <h1 id="player-title">{surah.name}</h1>
@@ -41,34 +41,40 @@ export function MemorizationPlayer() {
       {verse.audio ? <QuranAudioPlayer key={`${surah.number}:${verse.ayahNumber}`} {...verse.audio} /> : (
         <p className="audio-status" role="status">
           {isVerseAudioVerificationPending
-            ? "Audio Husary tersimpan per-surah. Pemutaran ayat belum diaktifkan sampai penanda waktunya terverifikasi cocok."
-            : "Audio ayat belum tersedia."}
+            ? "Audio ayat sedang disiapkan. Kamu tetap bisa membaca dan mengulang ayat ini."
+            : "Audio untuk ayat ini belum tersedia."}
         </p>
       )}
       <div className="player-options" aria-label="Bantuan belajar">
         <button type="button" className="learning-control" aria-label="Fokus Arabic" aria-pressed={focusLanguage === "arabic"} onClick={() => setFocusLanguage("arabic")}>
           <span className="learning-icon learning-icon-arabic" aria-hidden="true">ع</span>
-          <span>Arab</span>
+          <span className="learning-control-label">Arab</span>
+          <span className="learning-control-state">{focusLanguage === "arabic" ? "Aktif" : "Pilih"}</span>
         </button>
         <button type="button" className="learning-control" aria-label="Fokus Latin" aria-pressed={displayedFocusLanguage === "latin"} disabled={!hasTransliteration} onClick={() => { setFocusLanguage("latin"); setShowColorGroups(true); }}>
           <span className="learning-icon" aria-hidden="true">A</span>
-          <span>Latin</span>
+          <span className="learning-control-label">Latin</span>
+          <span className="learning-control-state">{hasTransliteration ? displayedFocusLanguage === "latin" ? "Aktif" : "Pilih" : "Belum ada"}</span>
         </button>
         <button type="button" className="learning-control" aria-label="Ukuran Latin besar" aria-pressed={largeTransliteration} disabled={!hasTransliteration} onClick={() => setLargeTransliteration((value) => !value)}>
           <span className="learning-icon" aria-hidden="true">A+</span>
-          <span>Besar</span>
+          <span className="learning-control-label">Lebih besar</span>
+          <span className="learning-control-state">{hasTransliteration ? largeTransliteration ? "Aktif" : "Pilih" : "Belum ada"}</span>
         </button>
         <button type="button" className="learning-control" aria-label="Tampilkan arti" aria-pressed={showTranslation} onClick={() => setShowTranslation((value) => !value)}>
-          <span className="learning-icon" aria-hidden="true">文</span>
-          <span>Arti</span>
+          <span className="learning-icon" aria-hidden="true">T</span>
+          <span className="learning-control-label">Arti</span>
+          <span className="learning-control-state">{showTranslation ? "Aktif" : "Pilih"}</span>
         </button>
         <button type="button" className="learning-control" aria-label="Chunk warna" aria-pressed={displayedColorGroups} disabled={!hasColorChunks} onClick={() => setShowColorGroups((value) => !value)}>
-          <span className="learning-icon" aria-hidden="true">◉</span>
-          <span>Warna</span>
+          <span className="learning-icon learning-icon-color" aria-hidden="true"><i /><i /><i /></span>
+          <span className="learning-control-label">Warna</span>
+          <span className="learning-control-state">{hasColorChunks ? displayedColorGroups ? "Aktif" : "Pilih" : "Belum ada"}</span>
         </button>
         <button type="button" className="learning-control" aria-label="Mode fokus" aria-pressed={focusMode} onClick={() => setFocusMode((value) => !value)}>
-          <span className="learning-icon" aria-hidden="true">◎</span>
-          <span>Fokus</span>
+          <span className="learning-icon learning-icon-focus" aria-hidden="true"><i /><i /><i /><i /></span>
+          <span className="learning-control-label">Fokus</span>
+          <span className="learning-control-state">{focusMode ? "Aktif" : "Pilih"}</span>
         </button>
       </div>
       {displayedColorGroups ? <p className="learning-flow-note">Warna membantu kelompok latihan; bacaan tetap mengalir sampai akhir ayat.</p> : null}

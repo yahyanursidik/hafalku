@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-09-18",
+    "macrostructure": "Catalogue",
+    "theme": "Hum",
+    "enrichment": "none",
+    "brief": "Hafalku child-friendly controls, information hierarchy, and logo refinement"
+  },
+  {
+    "date": "2026-09-18",
     "macrostructure": "Narrative Workflow",
     "theme": "Hum",
     "enrichment": "Tier-A CSS learning-path marker",

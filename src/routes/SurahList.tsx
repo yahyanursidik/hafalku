@@ -6,15 +6,17 @@ export function SurahList() {
 
   return (
     <main className="page surah-page" aria-labelledby="surah-title">
-      <h1 id="surah-title">Juz Amma</h1>
-      <p className="surah-intro">{surahs.length} surah · {ayahCount} ayat</p>
+      <p className="surah-kicker">Juz 30 · {surahs.length} surah</p>
+      <h1 id="surah-title">Pilih surah untuk hari ini.</h1>
+      <p className="surah-intro">Ada {ayahCount} ayat yang bisa dipelajari pelan-pelan. Ketuk satu surah untuk mulai.</p>
       <ol className="surah-list">
-        {surahs.map((surah) => (
+        {surahs.map((surah, index) => (
           <li key={surah.number}>
-            <Link to={`/surah/${surah.number}`}>
-              <span className="surah-number">{surah.number}</span>
+            <Link aria-label={`Buka ${surah.name}, ${surah.verses.length} ayat`} className={`surah-list-card surah-tone-${index % 3}`} to={`/surah/${surah.number}`}>
+              <span className="surah-number"><small>Surah</small>{surah.number}</span>
               <span className="surah-name"><strong>{surah.name}</strong><small>{surah.meaning} · {surah.verses.length} ayat</small></span>
               <span className="surah-arabic" lang="ar" dir="rtl">{surah.nameArabic}</span>
+              <span className="surah-open" aria-hidden="true">→</span>
             </Link>
           </li>
         ))}

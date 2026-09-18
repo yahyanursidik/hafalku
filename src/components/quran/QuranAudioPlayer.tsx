@@ -119,21 +119,27 @@ export function QuranAudioPlayer({ source, startMs, endMs }: QuranAudioPlayerPro
         onError={() => { setHasError(true); setPlayingVerseKey(null); setIsLoading(false); }}
       />
       <div className="audio-actions">
-        <button type="button" className="button-primary audio-play-button" aria-label={isLoading ? "Memuat audio" : isPlaying ? "Jeda audio" : "Putar audio"} disabled={isLoading} onClick={isPlaying ? pauseAudio : () => void playAudio()}>
-          <span className="audio-button-icon" aria-hidden="true">{isPlaying ? "Ⅱ" : "▶"}</span>
-          <span>{isLoading ? "Memuat" : isPlaying ? "Jeda" : "Dengar"}</span>
-        </button>
-        <div className="repeat-controls" aria-label="Jumlah pengulangan">
-          {repeatOptions.map((count) => (
-            <button key={count} type="button" aria-label={`Ulangi ${count} kali`} aria-pressed={repeatCount === count} onClick={() => selectRepeatCount(count)}>
-              <span aria-hidden="true">↻</span>
-              <span>{count}×</span>
-            </button>
-          ))}
+        <div className="audio-listen-control">
+          <span className="audio-control-label">Dengar ayat</span>
+          <button type="button" className="button-primary audio-play-button" aria-label={isLoading ? "Memuat audio" : isPlaying ? "Jeda audio" : "Putar audio"} disabled={isLoading} onClick={isPlaying ? pauseAudio : () => void playAudio()}>
+            <span className="audio-button-icon" aria-hidden="true">{isPlaying ? "Ⅱ" : "▶"}</span>
+            <span>{isLoading ? "Memuat" : isPlaying ? "Jeda" : "Dengar"}</span>
+          </button>
+        </div>
+        <div className="repeat-group">
+          <span className="audio-control-label">Ulangi</span>
+          <div className="repeat-controls" aria-label="Jumlah pengulangan">
+            {repeatOptions.map((count) => (
+              <button key={count} type="button" aria-label={`Ulangi ${count} kali`} aria-pressed={repeatCount === count} onClick={() => selectRepeatCount(count)}>
+                <span aria-hidden="true">↻</span>
+                <span>{count}×</span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
       <p className="audio-status" aria-live="polite">
-        {hasError ? "Audio tidak dapat dimuat. Coba lagi." : `Ayat diputar ${repeatCount} kali, dari ${startMs}–${endMs} ms.`}
+        {hasError ? "Audio belum dapat dimuat. Ketuk Dengar untuk mencoba lagi." : `Ayat akan diputar ${repeatCount} kali. Dengarkan, lalu ikuti perlahan.`}
       </p>
     </section>
   );

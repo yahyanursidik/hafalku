@@ -18,6 +18,12 @@
   --color-home-coral-strong: oklch(60% 0.17 18);
   --color-home-shadow: oklch(24% 0.02 95 / 0.14);
   --color-home-rail: oklch(78% 0.08 95);
+  --color-control-surface: oklch(97% 0.016 95);
+  --color-control-active: oklch(90% 0.055 158);
+  --color-control-edge: oklch(47% 0.09 154);
+  --color-control-disabled: oklch(91% 0.012 95);
+  --color-info-surface: oklch(94% 0.03 235);
+  --color-logo-surface: oklch(96% 0.012 95);
   --font-display: "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
   --font-body: ui-sans-serif, system-ui, sans-serif;
   --font-home: ui-rounded, "Arial Rounded MT Bold", var(--font-body);
@@ -39,6 +45,10 @@
   --radius-control: 0.5rem;
   --radius-card: 1.25rem;
   --radius-pill: 999px;
+  --brand-mark-size: 2.25rem;
+  --brand-image-width: 8.25rem;
+  --brand-image-x: -3rem;
+  --brand-image-y: -1rem;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
