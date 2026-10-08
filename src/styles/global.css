@@ -1,4 +1,4 @@
-/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 · genre: playful · macrostructure: Catalogue · theme: Hum · enrichment: none · nav: compact product · footer: Ft1 · tone: encouraging child-first · anchor hue: forest · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V4 · genre: playful · macrostructure: Split Studio · theme: Coral · enrichment: none · nav: N1a compact two-route product · footer: Ft1 · tone: encouraging child-first · anchor hue: forest with coral guide · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
 @import "./tokens.css";
 
 @font-face {
@@ -1130,4 +1130,664 @@ button:disabled {
   button:not(:disabled):active {
     transform: none;
   }
+}
+
+/* Split Studio refresh: Arabic anchors the ayah; Latin supports the child. */
+.app-header {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.app-wordmark {
+  display: none;
+}
+
+.app-header nav {
+  justify-self: end;
+}
+
+.app-header nav a {
+  white-space: nowrap;
+}
+
+.player-topline {
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.player-progress {
+  min-width: 0;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--color-learning-guide);
+  color: var(--color-ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.verse-display {
+  min-height: 18rem;
+  padding-block: var(--space-7);
+}
+
+.verse-latin {
+  max-width: 35ch;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.55;
+}
+
+.verse-latin.is-large {
+  color: var(--color-ink);
+  font-size: var(--text-latin-learning);
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.learning-tools {
+  display: grid;
+  gap: var(--space-5);
+  padding-block: var(--space-5);
+  border-top: 2px solid var(--color-rule);
+}
+
+.learning-tools-heading {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.learning-tools-heading h2,
+.learning-tools-heading p,
+.learning-group-title {
+  margin: 0;
+}
+
+.learning-tools-heading h2 {
+  font-family: var(--font-home);
+  font-size: var(--text-lg);
+  font-weight: 850;
+}
+
+.learning-tools-heading p {
+  max-width: 45ch;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.learning-tool-group {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.learning-group-title {
+  color: var(--color-muted);
+  font-family: var(--font-home);
+  font-size: var(--text-sm);
+  font-weight: 850;
+}
+
+.learning-option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.learning-option-grid .learning-control {
+  min-height: 6.75rem;
+}
+
+.learning-option-grid .learning-control:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.learning-control[aria-pressed="true"] {
+  border-color: var(--color-control-edge);
+  background: var(--color-control-active);
+}
+
+.learning-control[aria-pressed="true"] .learning-icon {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+.learning-control[aria-pressed="true"] .learning-control-state {
+  color: var(--color-control-edge);
+}
+
+.learning-control:disabled .learning-control-state {
+  color: var(--color-muted);
+}
+
+.audio-player {
+  margin-top: var(--space-2);
+}
+
+.audio-status {
+  background: var(--color-learning-guide);
+}
+
+.verse-navigation {
+  position: sticky;
+  z-index: var(--z-sticky);
+  bottom: 0;
+  margin-inline: calc(var(--space-4) * -1);
+  padding: var(--space-3) var(--space-4) max(var(--space-3), env(safe-area-inset-bottom));
+  border-top: 2px solid var(--color-rule);
+  background: var(--color-paper);
+}
+
+.verse-navigation button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+
+.is-focused .learning-tools {
+  opacity: 0.28;
+}
+
+@media (min-width: 24rem) {
+  .app-wordmark {
+    display: inline;
+  }
+}
+
+@media (min-width: 40rem) {
+  .app-header {
+    grid-template-columns: minmax(9rem, 1fr) auto minmax(9rem, 1fr);
+  }
+
+  .app-header nav {
+    justify-self: center;
+  }
+
+  .app-start-link {
+    justify-self: end;
+  }
+
+  .learning-option-grid {
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr) minmax(0, 1fr);
+  }
+
+  .learning-option-grid .learning-control:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .verse-navigation {
+    margin-inline: 0;
+    border-inline: 2px solid var(--color-rule);
+    border-radius: var(--radius-card) var(--radius-card) 0 0;
+  }
+}
+
+/* Hallmark · surah directory · genre: playful · theme: existing Hafalku
+ * P5 H5 E4 S5 R5 V4 · compact index · mobile-first · static, no reveal motion */
+.surah-directory {
+  width: min(calc(100% - var(--space-6)), 60rem);
+  padding-block: var(--space-6) var(--space-7);
+}
+
+.surah-directory-heading {
+  display: grid;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.surah-directory .surah-kicker {
+  margin: 0;
+  font-size: var(--text-sm);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.surah-directory h1 {
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  font-family: var(--font-home);
+  font-size: clamp(1.75rem, 6vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  overflow-wrap: anywhere;
+}
+
+.surah-directory .surah-intro {
+  max-width: 55ch;
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+
+.surah-search {
+  display: grid;
+  gap: var(--space-2);
+  max-width: 32rem;
+}
+
+.surah-search label {
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.surah-search-field {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  min-height: 3.25rem;
+  padding-inline: var(--space-3) var(--space-1);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-control);
+  background: var(--color-paper-raised);
+  color: var(--color-muted);
+}
+
+.surah-search-field > svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 auto;
+}
+
+.surah-search-field:focus-within {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.surah-search input {
+  min-width: 0;
+  width: 100%;
+  min-height: 3.25rem;
+  padding: var(--space-3) var(--space-2);
+  border: 0;
+  background: transparent;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  outline: none;
+}
+
+.surah-search input::placeholder {
+  color: var(--color-muted);
+  opacity: 1;
+}
+
+.surah-search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.surah-search button {
+  flex: 0 0 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+
+.surah-result-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-block: var(--space-5) var(--space-3);
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.surah-result-count > span {
+  text-align: right;
+}
+
+.surah-directory .surah-list {
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-3);
+  margin: 0;
+  border: 0;
+}
+
+.surah-directory .surah-list-card {
+  grid-template-columns: 2.75rem minmax(0, 1fr) 1.25rem;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  min-height: 8.75rem;
+  padding: var(--space-4);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  background: var(--color-paper-raised);
+  color: var(--color-ink);
+  transition: border-color var(--dur-micro) var(--ease-out);
+}
+
+.surah-directory .surah-number {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  min-width: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: var(--color-control-active);
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 750;
+}
+
+.surah-directory .surah-name {
+  grid-column: 2;
+  grid-row: 1;
+  gap: var(--space-1);
+}
+
+.surah-directory .surah-name strong {
+  color: var(--color-ink);
+  font-size: var(--text-base);
+  line-height: 1.25;
+}
+
+.surah-directory .surah-name small {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.surah-directory .surah-arabic {
+  grid-column: 2 / -1;
+  grid-row: 2;
+  justify-self: end;
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 1.65rem;
+  line-height: 1.65;
+}
+
+.surah-directory .surah-verse-count {
+  grid-column: 1;
+  grid-row: 2;
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.surah-directory .surah-open {
+  grid-column: 3;
+  grid-row: 1;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--color-accent);
+}
+
+.surah-directory .surah-list-card:active {
+  background: var(--color-control-surface);
+}
+
+.surah-empty {
+  padding-block: var(--space-6);
+  text-align: center;
+}
+
+.surah-empty h2 {
+  margin: 0;
+  font-size: var(--text-lg);
+}
+
+.surah-empty p {
+  margin-block: var(--space-2) var(--space-4);
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .surah-directory .surah-list-card:hover {
+    border-color: var(--color-control-edge);
+    color: var(--color-ink);
+  }
+
+  .surah-search-field:hover {
+    border-color: var(--color-control-edge);
+  }
+}
+
+@media (min-width: 44rem) {
+  .surah-directory {
+    padding-top: var(--space-7);
+  }
+
+  .surah-directory .surah-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .surah-directory .surah-list-card {
+    transition: none;
+  }
+}
+
+/* Hallmark · pre-emit critique: P5 H4 E4 S5 R5 V4.
+ * macrostructure: Type Specimen adapted for letter learning · existing Hafalku theme.
+ * Arabic glyphs are the imagery; no new assets, motion, or decorative chrome.
+ * Existing nav/footer retained for cross-page consistency and scope restraint.
+ */
+.app-header {
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "brand start" "navigation navigation";
+  gap: 0 var(--space-3);
+  padding-block: var(--space-2);
+}
+
+.app-header .app-name { grid-area: brand; }
+.app-header .app-wordmark { display: inline; }
+.app-header .app-start-link { grid-area: start; justify-self: end; }
+.app-header nav { grid-area: navigation; justify-self: center; }
+.app-footer-links { flex-wrap: wrap; }
+
+.hijaiyah-page {
+  width: min(100% - var(--space-6), 60rem);
+  font-family: var(--font-home);
+  padding-top: var(--space-5);
+}
+
+.hijaiyah-heading { margin-bottom: var(--space-5); }
+.hijaiyah-heading h1 {
+  min-width: 0;
+  margin: 0;
+  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+}
+.hijaiyah-heading p { max-width: 52ch; margin: var(--space-3) 0 0; color: var(--color-muted); line-height: 1.6; }
+.hijaiyah-workbook { display: grid; gap: var(--space-6); align-items: start; }
+.hijaiyah-detail {
+  min-width: 0;
+  scroll-margin-block-start: 8rem;
+  padding: var(--space-4);
+  background: var(--color-paper-raised);
+  color: var(--color-ink);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+}
+.hijaiyah-position { margin: 0; color: var(--color-muted); font-size: var(--text-sm); font-variant-numeric: tabular-nums; }
+.hijaiyah-hero-letter {
+  display: block;
+  width: fit-content;
+  min-width: 1.4em;
+  margin: var(--space-3) auto var(--space-2);
+  padding-inline: var(--space-3);
+  background: var(--color-chunk-two);
+  color: var(--color-ink);
+  border-radius: var(--radius-card);
+  font-size: clamp(6rem, 24vw, 8rem);
+  font-weight: 400;
+  line-height: 1.55;
+  text-align: center;
+}
+.hijaiyah-detail h2 { margin: 0; text-align: center; font-size: var(--text-2xl); scroll-margin-block-start: 8rem; }
+.hijaiyah-detail h2:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+.hijaiyah-pronunciation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin-block: var(--space-4); }
+.hijaiyah-pronunciation dt { color: var(--color-muted); font-size: var(--text-sm); line-height: 1.5; }
+.hijaiyah-pronunciation dd { margin: var(--space-1) 0 0; font-size: var(--text-lg); font-weight: 700; overflow-wrap: anywhere; }
+.hijaiyah-pronunciation dd[lang="ar"] { font-size: var(--text-2xl); font-weight: 400; text-align: start; line-height: 1.6; }
+.hijaiyah-explanation { margin: 0; line-height: 1.6; }
+.hijaiyah-name-hint { margin-block: var(--space-3) var(--space-4); color: var(--color-muted); font-size: var(--text-sm); line-height: 1.6; }
+.hijaiyah-step-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }
+.hijaiyah-step-controls button { display: flex; align-items: center; justify-content: center; gap: var(--space-2); padding-inline: var(--space-2); white-space: nowrap; font-size: var(--text-sm); }
+.hijaiyah-step-controls .hijaiyah-next { background: var(--color-accent); color: var(--color-accent-ink); border-color: var(--color-accent); }
+.hijaiyah-step-controls button:active:not(:disabled), .hijaiyah-letter-button:active { opacity: 0.85; }
+.hijaiyah-restart { width: 100%; margin-top: var(--space-2); font-weight: 700; white-space: nowrap; }
+.hijaiyah-picker-link { display: flex; width: fit-content; min-height: 44px; align-items: center; gap: var(--space-2); margin-top: var(--space-2); color: var(--color-accent); text-underline-offset: 0.2em; font-size: var(--text-sm); white-space: nowrap; }
+.hijaiyah-choices { min-width: 0; scroll-margin-block-start: 8rem; }
+.hijaiyah-choices h2 { margin: 0; font-size: var(--text-lg); }
+.hijaiyah-choices h3 { margin: var(--space-5) 0 0; font-size: var(--text-lg); }
+.hijaiyah-choices p { color: var(--color-muted); margin: var(--space-2) 0 var(--space-4); line-height: 1.6; }
+.hijaiyah-letter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); }
+.hijaiyah-letter-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: var(--space-1);
+  min-width: 0;
+  min-height: 6.25rem;
+  padding: var(--space-2) var(--space-1);
+  background: var(--color-paper-raised);
+  color: var(--color-ink);
+  border: 2px solid var(--color-rule);
+  border-radius: var(--radius-control);
+}
+.hijaiyah-letter-button > [lang="ar"] { font-size: 2.75rem; line-height: 1.5; font-weight: 400; }
+.hijaiyah-letter-button > [dir="ltr"] { font-size: var(--text-sm); font-weight: 700; white-space: nowrap; }
+.hijaiyah-letter-button[aria-pressed="true"] { background: var(--color-control-active); border-color: var(--color-accent); color: var(--color-ink); }
+.hijaiyah-selected-mark { position: absolute; inset-block-start: var(--space-1); inset-inline-start: var(--space-2); color: var(--color-accent); font-size: var(--text-sm); }
+.hijaiyah-extra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hijaiyah-extra-grid .hijaiyah-letter-button { background: var(--color-learning-guide); }
+.hijaiyah-extra-grid .hijaiyah-letter-button[aria-pressed="true"] { background: var(--color-control-active); }
+.hijaiyah-guide { margin-top: var(--space-7); padding-top: var(--space-5); border-top: 1px solid var(--color-rule); }
+.hijaiyah-guide h2 { font-size: var(--text-lg); margin: 0; }
+.hijaiyah-guide p { max-width: 65ch; line-height: 1.6; color: var(--color-muted); }
+.hijaiyah-guide summary { min-height: 48px; padding-block: var(--space-3); cursor: pointer; font-weight: 700; line-height: 1.5; }
+.hijaiyah-guide summary:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+.hijaiyah-guide li { margin-block: var(--space-2); }
+.hijaiyah-guide a { color: var(--color-accent); text-underline-offset: 0.2em; }
+.hijaiyah-guide li a { display: inline-block; padding-block: var(--space-3); line-height: 1.5; }
+.hijaiyah-surah-link { display: inline-flex; align-items: center; gap: var(--space-2); min-height: 48px; margin-top: var(--space-3); white-space: nowrap; font-weight: 700; }
+.home-hijaiyah { display: grid; gap: var(--space-4); margin-top: var(--space-7); padding-block: var(--space-5); border-block: 1px solid var(--color-rule); }
+.home-hijaiyah h2 { margin: 0; font-size: var(--text-2xl); }
+.home-hijaiyah p { margin-block: var(--space-3) var(--space-4); line-height: 1.6; color: var(--color-muted); }
+.home-hijaiyah-letters { font-size: 3.5rem; line-height: 1.8; text-align: center; background: var(--color-home-cyan); color: var(--color-ink); border-radius: var(--radius-card); padding-inline: var(--space-4); }
+
+@media (hover: hover) {
+  .hijaiyah-letter-button:hover { border-color: var(--color-accent); }
+  .hijaiyah-step-controls button:hover:not(:disabled) { border-color: var(--color-ink); }
+}
+
+@media (min-width: 23rem) {
+  .hijaiyah-letter-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .hijaiyah-extra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 40rem) {
+  .app-header { grid-template-columns: minmax(9rem, 1fr) auto minmax(9rem, 1fr); grid-template-areas: "brand navigation start"; }
+  .hijaiyah-letter-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+  .hijaiyah-extra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-hijaiyah { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); align-items: center; gap: var(--space-5); }
+}
+
+@media (min-width: 60rem) {
+  .hijaiyah-workbook { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); }
+  .hijaiyah-letter-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .hijaiyah-extra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 60rem) and (min-height: 48rem) {
+  .hijaiyah-detail { position: sticky; top: 6rem; }
+}
+
+/* Same local font and glyph outlines, with letter-learning line metrics.
+ * Amiri Quran's 181.5% ascent is intended for stacked Quranic marks. Its
+ * baseline sits too low in compact isolated-letter cards. This alias affects
+ * hijaiyah only; Quran text, Quran font metrics, and diacritics are unchanged.
+ */
+@font-face {
+  font-family: "Hafalku Hijaiyah";
+  src: url("/fonts/amiri-quran-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  ascent-override: 85%;
+  descent-override: 65%;
+  line-gap-override: 0%;
+}
+
+.hijaiyah-page [lang="ar"], .home-hijaiyah-letters { font-family: var(--font-hijaiyah); }
+.hijaiyah-page [data-tone="rose"] { --hijaiyah-surface: var(--color-hijaiyah-rose); }
+.hijaiyah-page [data-tone="sky"] { --hijaiyah-surface: var(--color-hijaiyah-sky); }
+.hijaiyah-page [data-tone="sand"] { --hijaiyah-surface: var(--color-hijaiyah-sand); }
+.hijaiyah-page [data-tone="mint"] { --hijaiyah-surface: var(--color-hijaiyah-mint); }
+.hijaiyah-page { width: min(100% - var(--space-6), 68rem); }
+.hijaiyah-detail { padding: var(--space-5); }
+.hijaiyah-hero-letter {
+  display: grid;
+  place-items: center;
+  width: min(100%, 12rem);
+  min-width: 0;
+  min-height: 2.2em;
+  aspect-ratio: 1;
+  margin-block: var(--space-4) var(--space-5);
+  padding: var(--space-2);
+  font-size: var(--text-hijaiyah-hero);
+  line-height: 2;
+  background: var(--hijaiyah-surface);
+  color: var(--color-ink);
+}
+.hijaiyah-detail h2 { line-height: 1.3; }
+.hijaiyah-pronunciation { gap: var(--space-4); margin-block: var(--space-5); }
+.hijaiyah-pronunciation dd[lang="ar"] { line-height: 2.2; }
+.hijaiyah-letter-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 5.25rem), 1fr)); gap: var(--space-3); }
+.hijaiyah-letter-button {
+  grid-template-rows: minmax(5rem, auto) auto;
+  align-content: stretch;
+  gap: var(--space-2);
+  min-height: 0;
+  padding: var(--space-3) var(--space-2);
+  background: var(--hijaiyah-surface);
+  color: var(--color-ink);
+  border-radius: var(--radius-card);
+}
+.hijaiyah-letter-button > .hijaiyah-tile-glyph {
+  display: block;
+  font-size: var(--text-hijaiyah-tile);
+  font-weight: 400;
+  line-height: 2;
+  white-space: nowrap;
+}
+.hijaiyah-letter-button > .hijaiyah-tile-label { line-height: 1.4; }
+.hijaiyah-letter-button[aria-pressed="true"],
+.hijaiyah-extra-grid .hijaiyah-letter-button,
+.hijaiyah-extra-grid .hijaiyah-letter-button[aria-pressed="true"] {
+  background: var(--hijaiyah-surface);
+  color: var(--color-ink);
+}
+.hijaiyah-letter-button[aria-pressed="true"] { outline: 1px solid var(--color-accent); outline-offset: 1px; }
+.hijaiyah-letter-button:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+.hijaiyah-extra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hijaiyah-step-controls button { min-height: 48px; }
+.home-hijaiyah-letters { line-height: 2; padding-block: var(--space-3); }
+
+@media (min-width: 60rem) {
+  .hijaiyah-detail { padding: var(--space-6); }
+}
+
+/* Keep the whole reading panel reachable on short/landscape screens. */
+.hijaiyah-page .hijaiyah-detail { position: static; }
+@media (min-width: 60rem) and (min-height: 60rem) {
+  .hijaiyah-page .hijaiyah-detail { position: sticky; top: 6rem; }
 }

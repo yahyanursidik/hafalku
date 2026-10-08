@@ -15,7 +15,8 @@ export function AppShell() {
           <NavLink end to="/">
             Beranda
           </NavLink>
-          <NavLink to="/surah">Surah</NavLink>
+          <NavLink to="/surah">Juz Amma</NavLink>
+          <NavLink to="/hijaiyah">Hijaiyah</NavLink>
         </nav>
         <Link className="app-start-link" to="/surah/78">Mulai</Link>
       </header>
@@ -28,6 +29,7 @@ export function AppShell() {
         <div className="app-footer-links">
           <Link to="/">Beranda</Link>
           <Link to="/surah">Juz Amma</Link>
+          <Link to="/hijaiyah">Hijaiyah</Link>
         </div>
       </footer>
     </div>

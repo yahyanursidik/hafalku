@@ -120,14 +120,14 @@ export function QuranAudioPlayer({ source, startMs, endMs }: QuranAudioPlayerPro
       />
       <div className="audio-actions">
         <div className="audio-listen-control">
-          <span className="audio-control-label">Dengar ayat</span>
+          <span className="audio-control-label">Dengar dan ikuti</span>
           <button type="button" className="button-primary audio-play-button" aria-label={isLoading ? "Memuat audio" : isPlaying ? "Jeda audio" : "Putar audio"} disabled={isLoading} onClick={isPlaying ? pauseAudio : () => void playAudio()}>
             <span className="audio-button-icon" aria-hidden="true">{isPlaying ? "Ⅱ" : "▶"}</span>
             <span>{isLoading ? "Memuat" : isPlaying ? "Jeda" : "Dengar"}</span>
           </button>
         </div>
         <div className="repeat-group">
-          <span className="audio-control-label">Ulangi</span>
+          <span className="audio-control-label">Pilih pengulangan</span>
           <div className="repeat-controls" aria-label="Jumlah pengulangan">
             {repeatOptions.map((count) => (
               <button key={count} type="button" aria-label={`Ulangi ${count} kali`} aria-pressed={repeatCount === count} onClick={() => selectRepeatCount(count)}>
@@ -139,7 +139,7 @@ export function QuranAudioPlayer({ source, startMs, endMs }: QuranAudioPlayerPro
         </div>
       </div>
       <p className="audio-status" aria-live="polite">
-        {hasError ? "Audio belum dapat dimuat. Ketuk Dengar untuk mencoba lagi." : `Ayat akan diputar ${repeatCount} kali. Dengarkan, lalu ikuti perlahan.`}
+        {hasError ? "Audio belum dapat dimuat. Ketuk Dengar untuk mencoba lagi." : `Ayat akan diputar ${repeatCount} kali. Dengarkan dulu, lalu ikuti perlahan.`}
       </p>
     </section>
   );

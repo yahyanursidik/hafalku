@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-08",
+    "macrostructure": "Type Specimen",
+    "theme": "Existing Hafalku",
+    "enrichment": "none",
+    "brief": "Local hijaiyah letter-name workbook; existing palette and navigation retained for product consistency"
+  },
+  {
+    "date": "2026-10-08",
+    "macrostructure": "Split Studio",
+    "theme": "Coral",
+    "enrichment": "none",
+    "brief": "Hafalku player with large Latin by default and clearer child learning controls"
+  },
+  {
     "date": "2026-09-18",
     "macrostructure": "Catalogue",
     "theme": "Hum",

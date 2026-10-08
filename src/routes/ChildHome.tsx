@@ -57,6 +57,15 @@ export function ChildHome() {
         </div>
       </section>
 
+      <section className="home-hijaiyah" aria-labelledby="home-hijaiyah-title">
+        <span className="home-hijaiyah-letters" lang="ar" dir="rtl" aria-hidden="true">ا ب ت</span>
+        <div>
+          <h2 id="home-hijaiyah-title">Baru belajar huruf?</h2>
+          <p>Kenali bentuk hijaiyah, nama Arab, dan pelafalan Latinnya satu per satu.</p>
+          <Link className="home-secondary-action" to="/hijaiyah">Belajar hijaiyah <span aria-hidden="true">→</span></Link>
+        </div>
+      </section>
+
       <section className="home-learning-flow" aria-labelledby="home-flow-title">
         <div className="home-section-heading">
           <h2 id="home-flow-title">Ikuti langkahnya.</h2>

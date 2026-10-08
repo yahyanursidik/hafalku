@@ -15,5 +15,6 @@ describe("ChildHome", () => {
     expect(screen.getByRole("link", { name: "Buka Al-Ikhlas, 4 ayat" })).toHaveAttribute("href", "/surah/112");
     expect(screen.getByRole("link", { name: "Buka Al-Falaq, 5 ayat" })).toHaveAttribute("href", "/surah/113");
     expect(screen.getByRole("link", { name: "Buka An-Nas, 6 ayat" })).toHaveAttribute("href", "/surah/114");
+    expect(screen.getByRole("link", { name: /Belajar hijaiyah/ })).toHaveAttribute("href", "/hijaiyah");
   });
 });
