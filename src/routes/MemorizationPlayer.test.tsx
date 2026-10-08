@@ -39,8 +39,9 @@ describe("MemorizationPlayer", () => {
   it("offers a larger Latin aid and optional visual word grouping", async () => {
     const user = userEvent.setup();
     renderPlayer();
-    await user.click(screen.getByRole("button", { name: "Ukuran Latin besar" }));
     expect(screen.getByText(ikhlasFirstVerse!.transliteration!)).toHaveClass("is-large");
+    await user.click(screen.getByRole("button", { name: "Ukuran Latin besar" }));
+    expect(screen.getByText(ikhlasFirstVerse!.transliteration!)).not.toHaveClass("is-large");
     await user.click(screen.getByRole("button", { name: "Chunk warna" }));
     expect(screen.getByText(ikhlasFirstVerse!.arabic.split(/\s+/).slice(0, 2).join(" "))).toHaveClass("chunk-0");
   });
